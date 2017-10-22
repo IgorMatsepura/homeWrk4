@@ -4,7 +4,7 @@
 
 const int pinAdmin=1000;
 const int pinUser=1002;
-const int user=20;
+const int user=5000;
 
 int main()
 {
@@ -28,12 +28,14 @@ int main()
 
             if  (rand()%10000 > 10000) {
             10000 - rand()%10000 ;
-            }
+
 
             if (rand()%10000 < 1000) {
             1000 + rand()%10000 ;
             }
-            arr[j]  = 1000 + rand()%10000;
+
+            }
+            arr[j]  = 1000 + rand()% 10000;
         }
         // Entering a loop with the condition that 3 attempts to enter a pin
         for ( k = 0 ; k <= 2; k++){
