@@ -145,7 +145,7 @@ int main()
                 for ( i = 0, j = 0; i < USER; i ++, j++ ){
                 	arraySum[i] = 0;
                 	arrayPincod[j] = 0;
-				}
+                }
                 printf("Successful...\n");
                 break;
             default:
