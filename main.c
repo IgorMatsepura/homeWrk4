@@ -29,8 +29,8 @@ int main()
 
         for ( j = 0; j < USER; j ++){
             arrayPinCod[j]  = PINUSER + j;
-            printf("%d\t", arrayPinCod[j]);
         }
+
         // Entering a loop with the condition that 3 attempts to enter a pin
         for ( k = 0; k <= RETRYPIN; k++){
             for (;;){
